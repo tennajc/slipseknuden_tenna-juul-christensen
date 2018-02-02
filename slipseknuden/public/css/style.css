@@ -91,13 +91,19 @@ h3 {
 
 /* Garanti */
 .container4 {
-    width: 1100px;
-    margin-left: 170px; 
-    
+    width: 1120px;
+    margin-left: 170px;  
 }
+.container4 img {
+    height: 140px;
+    width: 140px;
+}
+
+
 #garantiBillede { 
     height: 400px;
     width: 700px;
+    
 }
 
 /* Om Slipseknuden */
@@ -113,6 +119,9 @@ h3 {
     height: 200px;
     width: 250px;
     margin-bottom: 10px;
+}
+.container4 .col-md-2{
+    margin-right: 95px;
 }
 
 
@@ -132,4 +141,32 @@ h3 {
     text-align: center;
     width: 420px; 
 
+}
+
+
+/* Produkt */
+.myDiv2 {
+
+}
+.myDiv2 img {
+    height: 400px;
+    width: 550px;
+    float: right;
+    margin-right: 300px;
+
+}
+.myDiv2 h2{
+    font-size: 35px;
+    margin-left: 300px;
+}
+.myDiv2 p{
+    font-size: 20px;
+    display: flex;
+    float: left;
+    margin-left: 300px;
+}
+.myDiv2 h3{
+    font-size: 20px;
+    display: flex;
+    margin-left: 300px;
 }

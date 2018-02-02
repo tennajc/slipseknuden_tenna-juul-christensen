@@ -26,7 +26,7 @@
                        const img = document.createElement('IMG');
                        img.setAttribute('src', produkt.billede);
 
-                       const text = document.createElement('P');
+                       const text = document.createElement('h3');
                        const beskrivelse = document.createTextNode(`${produkt.beskrivelse}`);
 
                        text.appendChild(beskrivelse);
@@ -61,14 +61,13 @@
                         const anchor = document.createElement('A');
                         anchor.setAttribute('href', '?produkt=' + produkt.varenr);
                         const tekst = document.createTextNode(produkt.navn);
-                        // const p1 = document.createElement('P');
-                        // const pTekst = document.createTextNode(produkt.beskrivelse);
+                        
                         
                         p.appendChild(img);
+                        anchor.appendChild(img);
                         anchor.appendChild(tekst);
                         p.appendChild(anchor);
-                        // p1.appendChild(pTekst);
-                        // p.appendChild(p1);
+                        
 
                         placeholder.appendChild(p);
                         
