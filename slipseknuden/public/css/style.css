@@ -1,0 +1,135 @@
+/* Nav */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-default, .container-nav{
+    background-color: white;    
+    border: none;
+}
+.navbar-default a {
+    color:rgb(53,69,107)
+}
+#search {
+    height: 30px;
+    margin-top: 50px; 
+}
+.fa-facebook:before, .fa-twitter:before {
+    font-size: 30px;
+    float: right;
+    margin-left: 90px;
+    margin-top: 50px; 
+    color:rgb(53,69,107)
+}
+
+.container-fluid {
+    display: flex;
+    margin-left: 140px;
+}
+#logo {
+    height: 110px;
+    width: 350px;
+    padding-left: 100px;
+}
+.navbar-nav {
+    margin-left: 150px;
+}
+li {
+    padding: 10px;
+    padding-right: 210px;
+    font-size: 20px;
+}
+
+/* Footer */
+.footer-text span {
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+.footer-text > span + span:before {
+    content: "•";
+    padding-right: 13px;
+}
+footer {
+    background-color: rgb(247,247,247);
+    padding: 50px;
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+}
+
+/* Index */
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 20px;
+    margin-left: 245px;: 
+}
+h3 {
+    font-size: 16px;
+}
+.indexProdukter {
+    display: flex;
+    text-align: center;
+   
+}
+.indexProdukter a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    margin-left: 55px; 
+    width: 420px;   
+}
+
+.container2 {
+   background-color: rgba(53,69,107, 0.2);
+   padding: 30px;
+}
+.container3 {
+    padding: 30px;
+}
+
+/* Garanti */
+.container4 {
+    width: 1100px;
+    margin-left: 170px; 
+    
+}
+#garantiBillede { 
+    height: 400px;
+    width: 700px;
+}
+
+/* Om Slipseknuden */
+.form {
+    margin-left: 170px; 
+}
+#name, #user_mail {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+#msg {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+
+/* Produkter */
+.myDiv1 img {
+    height: 170px;
+    width: 170px;
+}
+.myDiv1 p{
+    width:400px;
+    float: left;
+}
+.myDiv1 a{
+    color: black;
+    font-size: 16px;
+    height: 40px;
+    text-align: center;
+    width: 420px; 
+
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <% include ../partials/head %>
+</head>
+<body>
+    <header>
+            <% include ../partials/header %>
+    </header>
+    <main>
+            <div class="container4">
+                        <h1>Slipseknuden.</h1>
+                        <p>Slipseknuden blev etableret i 1984 da og blev straks kendt som en butik med slips i de aller fineste kvalietsslips. Tilbage i 80'erne var der 5 ansatte og siden er det gået enormt stærkt, i dag er slipseknuden en verdensomspændende æde af slipsebutkker fordelt i hele europa med tusindvis af ansatte. Slipseknuden har kun det ypperste indenfor slips. Hos os finder du kvalitetsvarer der er usammenlignelige med andre slips. Et slips fra os vil bliver bemærket overalt du måtte færdes. Vores slips signalere kvaltet og god smag! </p>
+            </div>
+
+            <div class="container4">
+                        <div class="row">
+                                <div class="col-md-2">
+                                        <img src="./img/medarbejdere/anders.jpg" alt="" height="150px" width="150px;">
+                                        <h3>Anders Hansen</h3>
+                                        <p>Direktør</p>
+                                        <p>chefen@slipseknuden.eu</p>
+                                </div>
+
+                                <div class="col-md-2">
+                                        <img src="./img/medarbejdere/annelise.jpg" alt="" height="150px" width="150px;">
+                                        <h3>Annelise Johnson</h3>
+                                        <p>Sekretær</p>
+                                        <p>info@slipseknuden.eu</p>
+                                </div>
+                                            
+                                <div class="col-md-2">
+                                        <img src="./img/medarbejdere/jan.jpg" alt="" height="150px" width="150px;">
+                                        <h3>Jan Frandsen</h3>
+                                        <p>Sælger</p>
+                                        <p>jf@slipseknuden.eu</p>
+                                </div>
+                                                
+                                <div class="col-md-2">
+                                        <img src="./img/medarbejdere/joe.jpg" alt="" height="150px" width="150px;">
+                                        <h3>Joe Baylie</h3>
+                                        <p>Sælger</p>
+                                        <p>jb@slipseknuden.eu</p>
+                                </div>
+                                    </div>
+            </div>
+
+            <form method="get" action="index.html" onSubmit="return formular(this);" class="form">
+                        <div>
+                            <input type="text" name="forNavn" id="name" placeholder="Navn">
+                            <br>
+                            <input type="email" name="email" id="user_mail" placeholder="E-mail">
+                            <br>
+                            <textarea id="msg" name="user_message" placeholder="Besked"></textarea>
+                            <div class="button">
+                                <button type="submit">Send din besked</button>
+                            </div>
+                    </form>
+                    <img src="./img/images.jpg" alt="" id="garantiBillede">
+
+
+                    
+
+            
+    </main>
+    <footer>
+            <% include ../partials/footer %>
+    </footer>
+    <script src="./javascript/om-slipseknuden.js"></script>
+
+</body>
+</html>

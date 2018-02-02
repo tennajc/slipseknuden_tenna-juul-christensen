@@ -1,0 +1,28 @@
+[{
+    "varenr":1116,
+    "navn":"Blå kant",
+    "type": "Sleek Fabrics UK",
+    "pris": 560,
+    "beskrivelse":"køb vores blå slips til barnedåben!",
+    "billede": "./img/slips/6_blaa_kant.jpg"
+    
+},
+
+{
+    "varenr":1119,
+    "navn":"Blue",
+    "type": "Shoon Slips",
+    "pris": 450,
+    "beskrivelse":"Blåt med striber.",
+    "billede": "./img/slips/9_blue.jpg"
+},
+
+{
+    "varenr":1120,
+    "navn":"Tern",
+    "type": "Sleek Fabrics UK",
+    "pris": 800,
+    "beskrivelse":"Perfekt til den klassiske blå skjorte.",
+    "billede": "./img/slips/10_tern.jpg"
+}]
+
