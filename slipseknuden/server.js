@@ -13,4 +13,4 @@ require("./routes/pages") (app);		// Pages
 app.use(express.static('public'));
 
 app.listen(port); 						// 3000
-console.log(`Express server started http://localhost:${port}/`);
+console.log(`Server started http://localhost:${port}/`);
