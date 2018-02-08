@@ -1,5 +1,3 @@
-:turtle::point_left:
-
 node-ejs
 ========
 ## Funktionsbeskrivelser
