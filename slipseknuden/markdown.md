@@ -1,3 +1,5 @@
+:turtle:
+
 node-ejs
 ========
 ## Funktionsbeskrivelser
@@ -45,17 +47,3 @@ node-ejs
 * Færdiggøring af CSS
 * Produkter på forside skal vises uden indhold fra Index bliver vist
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-:turtle:
