@@ -8,9 +8,13 @@ var app = express();
 app.set('view engine', 'ejs');
 
 require("./routes/pages") (app);		// Pages
+require("./routes/fs") ();
+
 
 // Css
 app.use(express.static('public'));
 
 app.listen(port); 						// 3000
 console.log(`Server started http://localhost:${port}/`);
+
+
