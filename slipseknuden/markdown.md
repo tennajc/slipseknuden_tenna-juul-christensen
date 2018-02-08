@@ -1,4 +1,4 @@
-:turtle:
+:turtle::point_left:
 
 node-ejs
 ========
